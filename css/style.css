@@ -793,6 +793,12 @@ h3::before {
     min-height: 32px;
     margin-right: 10px;
     outline: none;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 
 .all:hover {
@@ -809,6 +815,11 @@ h3::before {
     margin-right: 10px;
     outline: none;
     color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 
 .web:hover {
@@ -823,6 +834,12 @@ h3::before {
     width: 135px;
     min-height: 32px;
     outline: none;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .photography:hover {
@@ -831,24 +848,6 @@ h3::before {
 
 .photography:active {
     background-color: transparent;
-}
-
-.btn-txt {
-    color: #ffffff;
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 21px;
-    text-transform: uppercase;
-    color: #8c8c8c;
-}
-
-.btn-txt:hover {
-    color: #ffff;
-}
-
-.btn-txt:active {
-    color: orange;
 }
 
 .pic {
@@ -1619,7 +1618,7 @@ img[alt="pic-footer"]:hover {
         padding: 10px;
         box-sizing: border-box;
     }
-
+  
     .container {
         min-width: 576px;
     }
@@ -1717,5 +1716,4 @@ img[alt="pic-footer"]:hover {
     .footer {
         margin-left: -220px;
     }
-
 }
